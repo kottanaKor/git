@@ -1,0 +1,49 @@
+p{
+   /* color: red;
+    text-align: justify;
+    font-style: italic;
+    font-size: 15px;
+    font-family: sans-serif Arial;
+    line-height: 30px;*/
+    font: italic bold 16px/30px Arial;
+    text-indent: 30px;
+}
+
+h1{
+    color: #00ff00;
+    text-align: center;
+    /*font-weight: normal;*/
+    font: normal 20px Verdana;
+
+}
+
+h2{
+    color: rgb(0,0,255);
+    width:300px;
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+    font-family: serif, "Times New Roman";
+}
+
+h3{
+    color: orange;
+    font-family: sans-serif;
+}
+
+table{
+    width: 400px;
+    height: 200px;
+    vertical-align: top;
+}
+th{
+    text-align: left;
+    vertical-align: middle;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+th,h1,h2{
+    font-weight: normal;
+}
