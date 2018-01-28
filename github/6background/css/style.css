@@ -1,0 +1,42 @@
+
+div#back_1{
+    width: 300px;
+    height: 100px;
+    background-color: red;
+}
+
+#text{
+    width: 600px;
+    height: 100%;
+    text-align: justify;
+    font: 20px Arial;
+}
+
+#text_1{
+    color: white;
+    width: 600px;
+    height: 100%;
+    text-align: justify;
+    font: 20px Arial;
+}
+
+body#back_2{
+    background: url("../img/icecream.jpg") scroll;
+}
+
+body#back_3{
+    background: url("../img/icecream.jpg") fixed;
+}
+
+body#back_4{
+    background: url("../img/girlcat.jpg") right top repeat-y ;
+}
+
+body#back_5{
+    background: #1c1e19 url("../img/wondowCat.jpg") no-repeat;
+}
+
+h1#hhh{
+    text-align: center;
+    font-style: italic;
+}
