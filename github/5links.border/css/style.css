@@ -1,0 +1,139 @@
+﻿/*1.Сделайте селектор, который выберет все ссылки из id=test, с состояния link и visited сделайте
+ неподчеркнутыми и красными, а состояние hover - подчеркнутым и голубым.
+  */
+
+#test a:link , #test a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+#test a:hover {
+    color: blue;
+}
+/*2.Сделайте селектор, который выберет все ссылки с классом www,
+состояния link и visited сделайте подчеркнутыми и голубыми, а состояние
+ hover - неподчеркнутым.
+ */
+a:link.www, a:visited.www{
+    text-decoration: underline;
+    color: blue;
+}
+
+a:hover.www{
+    text-decoration: none;
+}
+/*3.Сделайте селектор, который выберет все ссылки из id=test с классом www.
+ Цвета состояний выберите самостоятельно.
+  */
+#test_1 a:link.www, #test_1 a:visited.www{
+    color: darkred;
+}
+
+#test_1 a:hover.www{
+    color: darkgreen;
+    text-decoration: line-through;
+}
+/*4.Сделайте селектор, который выберет все ссылки из class=eee с классом www.
+ Цвета состояний выберите самостоятельно.
+  */
+.eee a:link.www, .eee a:visited.www{
+    color: #000;
+}
+
+.eee a:hover.www{
+    color: red;
+    text-decoration: none;
+}
+
+/*5.*/
+p#text_1 {
+    text-decoration:underline;
+ }
+p#text_2 {
+    text-decoration: line-through;
+}
+p#text_3 {
+    text-decoration: overline;
+}
+
+/*6.*/
+div#border_1{
+    height: 200px;
+    width: 200px;
+    border: red 1px solid;
+}
+
+/*7.*/
+div#border_2{
+    height: 200px;
+    width: 500px;
+    border: blue dotted 1px;
+}
+
+/*8.*/
+div#border_3{
+    height: 100px;
+    width: 100px;
+    border: green 1px dashed;
+}
+
+/*9.*/
+div#border_4{
+    height: 200px;
+    width: 500px;
+    border: 1px solid blue;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-left-color: black;
+    border-radius: 20px;
+}
+
+/*10.*/
+div#border_5{
+    width: 300px;
+    height: 300px;
+    border: 1px green dashed;
+    border-radius: 10px 20px;
+}
+
+/*11.*/
+div#border_6{
+    width: 300px;
+    height: 300px;
+    border: 1px green dotted;
+    border-radius: 10px 30px 50px 70px;
+}
+
+/*12.*/
+div#border_7{
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+    border-radius: 50px;
+}
+
+/*13.*/
+#link_1 a:link, #link_1 a:visited{
+    text-decoration: none;
+}
+#link_1 a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+#link_2 a:link, #link_2 a:visited{
+    color: #ff0000;
+}
+#link_2 a:hover{
+    text-decoration: line-through;
+    color: #00ff;
+}
+
+#link_3 a:link, #link_3 a:visited{
+    text-decoration: none;
+    color: black;
+}
+#link_3 a:hover{
+    text-decoration: overline;
+    color: red;
+}
