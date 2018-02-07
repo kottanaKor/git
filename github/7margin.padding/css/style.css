@@ -1,0 +1,99 @@
+/*ex.1*/
+div#red{
+    border: red 1px solid;
+    width: 200px;
+    height: 200px;
+    margin: 50px 30px;
+}
+
+div#green{
+    border: 1px solid green;
+    width: 200px;
+    height: auto;
+    text-align: justify;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+/*ex.2*/
+
+div#red_2{
+    border: red 1px solid;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    margin: 50px auto;
+    text-align: justify;
+    padding: 30px;
+}
+
+/*ex.3*/
+
+div#flex{
+    border: red 1px solid;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 650px;
+    min-width: 300px;
+    min-height: 400px;
+    margin: 50px auto;
+    text-align: justify;
+    padding: 30px;
+}
+
+/*ex.4*/
+
+img{
+    width: 160px;
+    height: 100px;
+}
+
+img#img1{
+     float: left;
+     margin-right: 20px;
+}
+
+img#img2{
+    float:right;
+    margin-left: 20px;
+}
+
+div#float{
+    width: 600px;
+    text-align: justify;
+}
+
+/*ex.5*/
+
+ul#u1{
+    list-style-type:square;
+}
+
+ul#u2{
+    list-style-type:circle;
+}
+
+ul#u3{
+    list-style-type:disc;
+}
+
+ul#u4{
+    list-style-type:none;
+}
+
+ul#u5{
+    list-style-image: url("li.gif");
+}
+
+ol#o6{
+    list-style-type:decimal;
+}
+
+ol#o7{
+    list-style-type:lower-greek;
+}
+
+ol#o8{
+    list-style-type:upper-alpha;
+}
