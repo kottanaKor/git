@@ -1,0 +1,55 @@
+#flex1{
+    border: 1px solid #1a2846;
+    background-color: #197dd7;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#flex1 ul{
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: column;  ex.10 вертикальное меню */
+    /*flex-direction: row-reverse;  ex.2 в обратном порядке */
+    /*justify-content: center;  ex.3 по центру по горизонтали */
+    justify-content: center;
+    align-items: stretch; /*блоки растянуты*/
+    flex-wrap: wrap; /*Блоки выстраиваются в несколько строк, если не помещаются в одну.*/
+    margin: auto;
+    padding: 0;
+}
+
+#flex1 li{
+    list-style-type: none;
+}
+
+#flex1 a:link, a:visited{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#flex1 a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #197dd7;
+}
+
+/*---------------------------------*/
+
+#flexBox{
+    width: 700px;
+    height: 500px;
+    border: 1px solid darkblue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div#flexBox .box{
+    border: 1px solid darkcyan;
+    width: 150px;
+    height: 150px;
+}
