@@ -1,0 +1,112 @@
+/*------------ ex.1 ---------------*/
+
+#pos1 #red, #blue, #green {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+#pos1 #red {
+    top: 40px;
+    left: 30px;
+    border: red solid 1px;
+}
+
+#pos1 #blue {
+    top: 400px;
+    left: 210px;
+    border: blue solid 1px;
+}
+
+#pos1 #green {
+    top: 380px;
+    left: 390px;
+    border: green solid 1px;
+}
+
+/*------------ ex.2 ---------------*/
+
+#pos2 #red, #blue, #green {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+#pos2 #red {
+    top: 40px;
+    left: 30px;
+    border: red solid 1px;
+}
+
+#pos2 #blue {
+    top: 40px;
+    left: 210px;
+    border: blue solid 1px;
+}
+
+#pos2 #green {
+    top: 40px;
+    left: 390px;
+    border: green solid 1px;
+}
+
+/*------------ ex.3 ---------------*/
+
+#pos3 #red, #blue, #green {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+#pos3 #red {
+    top: 40px;
+    left: 30px;
+    border: red solid 1px;
+}
+
+#pos3 #blue {
+    top: 130px;
+    left: 120px;
+    border: blue solid 1px;
+}
+
+#pos3 #green {
+    top: 220px;
+    left: 210px;
+    border: green solid 1px;
+}
+
+/*------------ ex.4 ---------------*/
+
+#pos4 #red, #blue, #green {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+#pos4 #red {
+    top: 40px;
+    left: 30px;
+    background-color: #ff5354;
+    /*z-index: 0; !* ex.5 *!*/
+    /*z-index: 1; !* ex.6 *!*/
+    z-index: 1; /* ex.7 */
+}
+
+#pos4 #blue {
+    top: 130px;
+    left: 120px;
+    background-color: #5a68ff;
+    /*z-index: 1; !* ex.5 *!*/
+    /*z-index: 0; !* ex.6 *!*/
+    z-index: 0; /* ex.7 */
+}
+
+#pos4 #green {
+    top: 220px;
+    left: 210px;
+    background-color: #3dd479;
+    /*z-index: 0; !* ex.5 *!*/
+    /*z-index: 1; !* ex.6 *!*/
+    z-index: -1; /* ex.7 */
+}
