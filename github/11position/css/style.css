@@ -110,3 +110,238 @@
     /*z-index: 1; !* ex.6 *!*/
     z-index: -1; /* ex.7 */
 }
+
+/*------------ ex.8-9 position ---------------*/
+
+#pos5 #green {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: #3dd479;
+    position: relative;
+}
+
+#pos5 #red {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 40px;
+    left: 30px;
+    border: red solid 1px;
+}
+
+#pos5 #white1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 40px;
+    left: 30px;
+    background-color: white;
+}
+
+#pos5 #white2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 40px;
+    right: 30px;
+    background-color: white;
+}
+
+/*------------ ex.10 ---------------*/
+
+#pos6 {
+    margin: 0 auto;
+    width: 200px;
+    height: 530px;
+    border: black 1px solid;
+    position: relative;
+}
+
+#pos6 #red, #yellow, #green {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    border: black 1px solid;
+}
+
+#pos6 #red{
+    background-color: red;
+    top: 20px;
+    left: 25px;
+}
+
+#pos6 #yellow{
+    background-color: yellow;
+    top: 190px;
+    left: 25px;
+}
+
+#pos6 #green{
+    background-color: green;
+    top: 360px;
+    left: 25px;
+}
+
+
+/*------------ ex.11 ---------------*/
+
+#pos7 {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background-color: #3dd479;
+    border-radius: 50%;
+    position: relative;
+}
+
+#pos7 #elem1, #elem2, #elem3, #elem4{
+    background-color: white;
+    position: absolute;
+}
+
+#pos7 #elem1, #elem2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#pos7 #elem1{
+    top: 100px;
+    right: 100px;
+}
+
+#pos7 #elem2{
+    top: 100px;
+    left: 100px;
+}
+
+#pos7 #elem3{
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    left: 275px;
+}
+
+#pos7 #elem4{
+    width: 200px;
+    height: 20px;
+    top: 450px;
+    left: 200px;
+}
+
+
+/*------------ ex.12 ---------------*/
+
+#pos8 {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background-color: #d4c519;
+    border-radius: 50%;
+    position: relative;
+}
+
+#pos8 #elem1, #elem2, #elem3, #elem4{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#pos8 #elem1, #elem2 {
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+
+#pos8 #elem1{
+    top: 100px;
+    right: 100px;
+}
+
+#pos8 #elem2{
+    top: 100px;
+    left: 100px;
+}
+
+#pos8 #elem3{
+    width: 100px;
+    height: 100px;
+    top: 280px;
+    left: 250px;
+    z-index: 2;
+}
+
+#pos8 #elem4{
+    width: 300px;
+    height: 270px;
+    top: 285px;
+    left: 150px;
+    z-index: 0;
+}
+
+#pos8 #elem5{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #d4c519;
+    width: 400px;
+    height: 400px;
+    top: 75px;
+    left: 100px;
+    z-index: 1;
+}
+
+/*------------ ex.13 ---------------*/
+#pos9{
+    margin-top: 10px;
+}
+#pos9 #body{
+    margin: 0 auto 70px;
+    padding: 20px;
+    width: 600px;
+    border: palevioletred 1px solid;
+    color: #692a6a;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+#pos9 #fix{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #B43273;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    border-top: 1px solid #76214B;
+}
+
+
+/*------------ ex.14 ---------------*/
+
+#pos10 #text{
+    margin: 60px auto 0;
+    padding: 20px;
+    width: 600px;
+    border: #5a68ff 1px solid;
+    color: #160f6a;
+    border-radius: 20px 20px 0 0;
+}
+
+#pos10 #fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #5a68ff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    border-bottom: 1px solid #1a2846;
+}
