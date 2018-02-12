@@ -1,0 +1,211 @@
+/*------------ ex.1 --------------*/
+#wrapper1 {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#wrapper1 #header, #wrapper1 #content, #wrapper1 #footer{
+    border: 1px solid black;
+}
+
+#wrapper1 #header{
+    min-height: 200px;
+}
+
+#wrapper1 #content{
+    min-height: 400px;
+}
+
+#wrapper1 #footer{
+    min-height: 200px;
+}
+
+/*------------ ex.2 --------------*/
+
+#wrapper2 {
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#wrapper2 #header, #wrapper2 #footer{
+    border: 1px solid black;
+    height: 200px;
+}
+
+#wrapper2 #sidebar, #wrapper2 #content{
+    height: 500px;
+    outline: 1px solid black;
+    /*float: left;*/
+    float: right/*-- ex.3 ---*/
+}
+
+.clearfix{
+    clear: both;
+}
+
+#wrapper2 #sidebar{
+    width: 200px;
+}
+
+#wrapper2 #content{
+    width: 600px;
+}
+
+/*------------ ex.4 --------------*/
+
+#wrapper3 {
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#wrapper3 #header, #wrapper3 #footer{
+    border: 1px solid black;
+    height: 200px;
+}
+
+#wrapper3 #header{
+    margin-bottom: 20px;
+}
+
+#wrapper3 #footer{
+    margin-top: 20px;
+}
+
+#wrapper3 #sidebar1, #wrapper3 #content, #wrapper3 #sidebar2{
+    height: 500px;
+    outline: 1px solid black;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#wrapper3 #sidebar1{
+    width: 150px;
+    float: left;
+}
+#wrapper3 #sidebar2{
+    width: 150px;
+    float: right;
+}
+#wrapper3 #content{
+    margin: 0 170px;
+}
+
+/*------------ ex.7 --------------*/
+
+#wrapper4 {
+    width: 80%;
+    min-width: 530px;
+    margin: auto;
+    outline: 1px solid black;
+}
+
+#wrapper4 #header, #wrapper4 #footer{
+    border: 1px solid black;
+    height: 200px;
+}
+
+#wrapper4 #header{
+    margin-bottom: 20px;
+    position: relative;
+}
+#wrapper4 #header #menu{
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+#wrapper4 #footer{
+    margin-top: 20px;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+#wrapper4 #sidebar1{
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+
+#wrapper4 #sidebar1 > div{
+    outline: 1px solid black;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#wrapper4 #sidebar2{
+    height: 600px;
+    min-width: 150px;
+    float: right;
+    outline: 1px solid black;
+    margin-right: 20px;
+}
+#wrapper4 #content{
+    margin: 0 190px;
+    height: 600px;
+    min-width: 150px;
+    outline: 1px solid black;
+}
+
+
+/*------------ ex.10 --------------*/
+
+#wrapper5 {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    outline: 1px solid black;
+}
+#wrapper5 #header{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#wrapper5 #footer {
+    height: 200px;
+    margin-top: 20px;
+}
+
+#wrapper5 #header > div{
+    height: 200px;
+}
+
+#wrapper5 #footer > div{
+    height: 200px;
+}
+#wrapper5 #middle > div{
+    height: 500px;
+}
+
+.clearfix{
+    clear: both;
+}
+.left, .right{
+    width: 150px;
+    outline: 1px solid black;
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin: 0 170px;
+    outline: 1px solid black;
+}
+
