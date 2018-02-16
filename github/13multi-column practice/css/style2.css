@@ -1,0 +1,66 @@
+#wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    height: 200px;
+    color: white;
+    background-image: url("../img/nature_underwater_sea_water_1366x768_37009.jpg");
+
+}
+
+header #siteName {
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+header #slogan {
+    width: 500px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+aside {
+    height: 500px;
+    width: 200px;
+    float: left;
+}
+aside > div{
+    margin: 20px 0 0 10px;
+}
+aside p {
+    text-align: justify;
+}
+
+main {
+    padding: 20px;
+    margin-left: 200px;
+}
+
+main h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    margin: 100px 0 10px 50px;
+}
+

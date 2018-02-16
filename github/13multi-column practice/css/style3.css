@@ -1,0 +1,112 @@
+body {
+    background-color: #eaeaea;
+    font-family: 'Raleway', sans-serif;
+}
+
+#wrapper {
+    width: 850px;
+    margin: 30px auto 30px;
+    background-color: white;
+}
+
+nav, footer {
+    background: orange;
+}
+
+nav ul {
+    padding-left: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a:link, a:visited {
+    line-height: 50px;
+    color: #f6fcff;
+    text-decoration: none;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
+}
+
+aside {
+    width: 250px;
+    float: right;
+}
+
+aside > div{
+    margin: 20px 20px 0 0;
+}
+
+aside > div > h2{
+    margin-bottom: 10px;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+aside > div > p{
+    text-align: justify;
+    font-size: 11pt;
+    margin-bottom: 10px;
+}
+
+
+main {
+    margin-right:250px;
+    padding: 20px;
+}
+
+main > h1{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main > p {
+    text-align: justify;
+    font-size: 11pt;
+    margin: 10px 0;
+}
+
+main > p > img {
+    width: 100%;
+}
+
+main > h2{
+    margin-top: 20px;
+    font-size: 15pt;
+}
+
+table{
+    width: 100%;
+    margin: 10px 0;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+table th{
+    background-color: #eaeaea;
+    font-weight: bold;
+}
+
+table th, table td{
+    text-align: center;
+    border: black solid 1px;
+
+}
+
+footer{
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    font-size: 13pt;
+}
+.clearfix {
+    clear: both;
+}
